@@ -8,9 +8,30 @@
   display: flex;
 }
 .left-picture {
+  position: relative;
   width: 42rem;
   height: 100vh;
   border-bottom-right-radius: 5px;
+}
+.logo-background {
+  position: absolute;
+  width: 42rem;
+  top: 25%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.6;
+}
+.odin-logo {
+  margin: 1rem;
+  width: 4rem;
+  height: auto;
+  opacity: 1;
+}
+.odin-text {
+  margin: 2.5rem;
+  color: #fff;
+  font-size: 2.5rem;
 }
 /* RIGHT SECTION */
 .right-side {
